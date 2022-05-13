@@ -1,0 +1,41 @@
+h1{
+    text-align: center;
+    font-size: 8vh;
+
+    color: blue;
+}
+.tablero{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around    ;
+
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    
+}
+
+.seleccionVerde{
+    background-color: green;
+}
+.seleccionTransparente{
+    background-color: none;
+}
+span{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+#resultado{
+    text-align: center;
+    font-size: 5vh;
+}
+.red{
+    background-color: rgb(205, 117, 117);
+}
+.green{
+    background-color: rgb(99, 206, 99);
+}
